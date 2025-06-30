@@ -1,0 +1,22 @@
+﻿@model List<CrudApp1.Models.Employee>
+
+<h2>Employees</h2>
+<a href="/Employees/Create">Add New</a>
+<table class="table">
+    <tr>
+        <th>Name</th>
+        <th>Department</th>
+        <th>Actions</th>
+    </tr>
+    @foreach (var emp in Model)
+    {
+        <tr>
+            <td>@emp.Name</td>
+            <td>@emp.Department</td>
+            <td>
+                <a href="/Employees/Edit/@emp.Id">Edit</a> |
+                <a href="/Employees/Delete/@emp.Id">Delete</a>
+            </td>
+        </tr>
+    }
+</table>
