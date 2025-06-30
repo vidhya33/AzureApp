@@ -166,3 +166,4 @@ C:\aspnetcore\CrudApp1\CrudApp1\obj\Release\net8.0\refint\CrudApp1.dll
 C:\aspnetcore\CrudApp1\CrudApp1\obj\Release\net8.0\CrudApp1.pdb
 C:\aspnetcore\CrudApp1\CrudApp1\obj\Release\net8.0\CrudApp1.genruntimeconfig.cache
 C:\aspnetcore\CrudApp1\CrudApp1\obj\Release\net8.0\ref\CrudApp1.dll
+C:\aspnetcore\CrudApp1\CrudApp1\obj\Release\net8.0\CrudApp1.sourcelink.json
